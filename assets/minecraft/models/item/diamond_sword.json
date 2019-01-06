@@ -1,18 +1,17 @@
 {
-	"parent": "item/handheld",
-	"textures": {
-		"layer0": "item/diamond_sword"
-	},
-	"overrides": [
-		{ "predicate": {"damaged": 0, "damage": 0}, "model": "item/diamond_sword"},
-		{ "predicate": {"damaged": 0, "damage": 0.0006402048655569782}, "model": "item/alice/excalibur"},
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "items/diamond_sword"
+  },
+    "overrides": [
+		{"predicate": {"damaged": 0, "damage": 0.0006402048655569782}, "model": "item/alice/excalibur"},
 		{ "predicate": {"damaged": 0, "damage": 0.0012804097311139564}, "model": "item/mark/alizirin"},
 		{ "predicate": {"damaged": 0, "damage": 0.0019206145966709346}, "model": "item/alise/nuffer"},
 		{ "predicate": {"damaged": 0, "damage": 0.002560819462227913}, "model": "item/zem/banhammer"},
 		{ "predicate": {"damaged": 0, "damage": 0.003201024327784891}, "model": "item/rin/icespike"},
 		{ "predicate": {"damaged": 0, "damage": 0.0038412291933418692}, "model": "item/rin/the-rainbow-stave"},
-		{ "predicate": {"damaged": 0, "damage": 0.004481434058898847}, "model": "item/zem/zemswords"},
-		{ "predicate": {"damaged": 0, "damage": 0.005121638924455826}, "model": "item/diamond_sword7"},
+		{ "predicate": {"damaged": 0, "damage": 0.004481434058898847}, "model": "item/zem/zem"},
+		{ "predicate": {"damaged": 0, "damage": 0.005121638924455826}, "model": "item/mark/abron"},
 		{ "predicate": {"damaged": 0, "damage": 0.005761843790012804}, "model": "item/diamond_sword8"},
 		{ "predicate": {"damaged": 0, "damage": 0.006402048655569782}, "model": "item/diamond_sword9"},
 		{ "predicate": {"damaged": 0, "damage": 0.00704225352112676}, "model": "item/diamond_sword10"},
@@ -1566,6 +1565,7 @@
 		{ "predicate": {"damaged": 0, "damage": 0.9980793854033291}, "model": "item/diamond_sword1558"},
 		{ "predicate": {"damaged": 0, "damage": 0.998719590268886}, "model": "item/diamond_sword1559"},
 		{ "predicate": {"damaged": 0, "damage": 0.999359795134443}, "model": "item/diamond_sword1560"},
-		{ "predicate": {"damaged": 1, "damage": 0}, "model": "item/diamond_sword"}
-	]
+
+        {"predicate": {"damaged": 1, "damage": 0}, "model": "item/diamond_sword"}
+    ]
 }
