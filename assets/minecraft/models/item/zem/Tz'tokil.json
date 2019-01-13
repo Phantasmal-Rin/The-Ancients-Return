@@ -3231,12 +3231,28 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"translation":  [ -0.15, 4.8695, 1.3899 ],
-			"scale":  [ 0.2433, 0.4652, 0.2652 ]
+			"translation":  [ -0.15, 5.5651, 1.3899 ],
+			"scale":  [ 0.2431, 0.5564, 0.3692 ]
+		},
+		"thirdperson_lefthand": {
+			"translation":  [ -0.15, 5.5651, 1.3899 ],
+			"scale":  [ 0.2431, 0.5564, 0.3692 ]
+		},
+		"firstperson_righthand": {
+			"translation":  [ -0.15, 5.5651, 1.3899 ],
+			"scale":  [ 0.2431, 0.5564, 0.3692 ]
+		},
+		"firstperson_lefthand": {
+			"translation":  [ -0.15, 5.5651, 1.3899 ],
+			"scale":  [ 0.2431, 0.5564, 0.3692 ]
 		},
 		"gui": {
 			"rotation":  [ 0, 90, 0 ],
 			"scale":  [ 0.3, 0.3, 0.2433 ]
+		},
+		"ground": {
+			"translation":  [ 0, 9.7391, 0 ],
+			"scale":  [ 0.2083, 0.452, 0.3344 ]
 		},
 		"fixed": {
 			"rotation":  [ 0, 90, 0 ],
